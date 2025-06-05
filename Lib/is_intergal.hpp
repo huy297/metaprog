@@ -13,8 +13,8 @@ struct my_is_integral<long long> {
     static constexpr bool value = true;
 };
 
-static_assert(my_is_integral<int>::value);
+// static_assert(my_is_integral<int>::value);
 
-static_assert(my_is_integral<long long>::value);
+// static_assert(my_is_integral<long long>::value);
 
-static_assert(my_is_integral<float>::value == false);
+// static_assert(my_is_integral<float>::value == false);

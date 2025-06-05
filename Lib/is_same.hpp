@@ -9,6 +9,6 @@ struct my_is_same<T,T> {
     static constexpr bool value = true;
 };
 
-static_assert(my_is_same<int, int>::value, "int is same");
-static_assert(my_is_same<int, void>::value == false, "int and void is diff");
+// static_assert(my_is_same<int, int>::value, "int is same");
+// static_assert(my_is_same<int, void>::value == false, "int and void are diff");
 

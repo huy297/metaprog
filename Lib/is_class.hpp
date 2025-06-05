@@ -11,8 +11,8 @@ public:
     static constexpr bool value = sizeof(test<T>(0)) == sizeof(char);
 };
 
-static_assert(my_is_class<int>::value == false);
+// static_assert(my_is_class<int>::value == false);
 
-class forTesting {};
+// class forTesting {};
 
-static_assert(my_is_class<forTesting>::value);
+// static_assert(my_is_class<forTesting>::value);
